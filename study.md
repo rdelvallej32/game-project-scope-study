@@ -15,17 +15,28 @@ Submit detailed answers to these in this file via a pull request.
 
 A wireframe of what your game project will look like.
 done
+
+My link to my wireframes:
+
+  https://app.moqups.com/rdelvallej@gmail.com/jOKx4Yfb/view
+
 The data structure you plan to use.
-  1.) I plan to use an array or 2D array as the data structure to record the user's moves.
+  1.) I plan to use an array to record the user's moves.
   2.) I plan to use jQuery for creating click event handlers for the gameboard, login features,
   and game preferences(create game, update game, find game).
+  3.) Divs within my HTML with class names to designate gameboard coordinate (i.e Top Left).
+
+  My hope is that when a user clicks on a div (i.e. Top Left), then jquery will run an event
+  handler and place an image of an X or O based on the div class name. I also hope that when
+  a player clicks on the div element, you can use the data method in jquery to store a value to
+  associate it with the player and move. Once that value is stored it can be assigned to an array. Then
+  I can create the gameRules function to loop through that array and check if any X's or O's match in the desired manneer like Boggle.
 
 How you will take the markup of the game board and represent it in JS
   1.) The gameBoard in JS will be represented as an array. Similar to Boggle.
 
-
 How you plan to approach this project. (Test Every Step of Code I Type)
-  1.)  Read API Docs.
+  1.)  Read API Docs constantly as a reference.
   2.)  Use the wireframe as my layout.
   3.)  Create Skeleton (HTML) / the layout with proper class names according to
   API Docs for forms.
@@ -49,7 +60,8 @@ How you plan to approach this project. (Test Every Step of Code I Type)
 
 
 How you plan to keep your code moodular.
-- I would like to use the same template that we have been using from class.
+- I would like to use the same template that we have been using from class. It will
+keep functions simpler and easier to locate bugs.
 
 What creative spin will you add to your project.
 
